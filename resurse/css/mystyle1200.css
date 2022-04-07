@@ -1,0 +1,34 @@
+
+@media only screen and (max-width: 1200px) {
+  html{
+    font-size: 13px;
+}
+
+
+#grid-galerie{ 
+  display: grid;
+  grid-template-areas: '. . '
+                         '. . '
+                         '. . '
+                         '. . '
+                         '. . '
+                          ;
+  
+          }
+
+
+
+  #grid-pagina {
+    display: grid;
+    grid-template-areas: 'sectiune1 sectiune1 sectiune1 '
+                           'sectiune3 sectiune2 sectiune4'
+                         'sectiune8 sectiune8 sectiune8'
+                         'sectiune7 sectiune5 sectiune6'
+                          ;
+    grid-gap:2rem;
+    padding: 10px;
+  }
+ 
+  
+}
+ 

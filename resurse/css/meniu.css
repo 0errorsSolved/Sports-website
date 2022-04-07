@@ -1,0 +1,61 @@
+body{
+    --inaltime-meniu:3rem;
+}
+
+nav ul.meniu ul{
+    display: none;
+	position:absolute;/* ca sa il scot din container pe alt layer, sa nu imi deplaseze continutul cand devine vizibil*/
+	width:100%;
+}
+nav{
+    
+    height:var(--inaltime-meniu);
+    width:100%;
+    top:0;
+    padding:0;
+    background: #d6dbdf;
+    z-index:10;
+    position:sticky;
+}
+nav ul.meniu>li{
+    float:left;
+    width:100px;
+	position:relative;/* pentru ca submeniul pozitionat relativ sa aiba ca referinta parintele li*/
+}
+
+nav ul, nav li{
+    padding:0;
+    margin:0;
+}
+nav ul.meniu li{
+    text-align:center;
+    list-style-type: none;
+    background:#d6dbdf;
+    cursor:pointer;
+}
+nav ul.meniu li a, nav ul.meniu li div{
+    text-decoration: none;
+    color:black;
+    display: block;
+    font-weight:bold;
+    height:var(--inaltime-meniu);
+    line-height:var(--inaltime-meniu);
+    outline:1px solid black;
+}
+ul.meniu a:hover, ul.meniu div:hover{
+    background:#aeb6bf;
+}
+
+ul.meniu a, ul.meniu div{
+   transition: background 700ms linear; 
+}
+/*deschidere submeniu*/
+nav ul.meniu>li:hover>ul{
+	display:block;
+    animation-iteration-count:1;
+    animation-duration:0.7s;
+    animation-fill-mode:forwards;
+    animation-timing-function:linear;
+}
+
+

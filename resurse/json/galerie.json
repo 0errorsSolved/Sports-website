@@ -1,0 +1,77 @@
+{
+	"cale_galerie":"resurse/img/gstatica",
+	"imagini": [
+		{
+			"cale_imagine":"fotbal1.jpg",
+            "titlu":"Minge fotbal",
+            "descriere":"fotbal1",
+            "timp":"09:00-14:00"
+		},
+		{
+			"cale_imagine":"fotbal2.jpg",
+            "titlu":"Stadion fotbal",
+            "descriere":"fotbal2",
+            "timp":"08:00-12:00"
+		},
+		{
+			"cale_imagine":"fotbal3.jpg",
+            "titlu":"Minge Fotbal",
+            "descriere":"fotbal3",
+            "timp":"09:00-22:00"
+		},
+		{
+			"cale_imagine":"tennis1.jpg",
+            "titlu":"Paleta de tenis",
+            "descriere":"tennis1",
+            "timp":"11:00-02:00"
+		},
+		{
+			"cale_imagine":"tennis2.jpg",
+            "titlu":"Stadion tenis",
+            "descriere":"tennis2",
+            "timp":"14:00-19:00"
+		},
+		{
+			"cale_imagine":"tennis3.jpg",
+            "titlu":"Teren tenis",
+            "descriere":"tennis3",
+            "timp":"21:00-23:00"
+		},
+		{
+			"cale_imagine":"basket1.jpg",
+            "titlu":"Cos basket",
+            "descriere":"basket1",
+            "timp":"07:00-05:00"
+		},
+        {
+			"cale_imagine":"basket2.jpg",
+            "titlu":"Teren basket",
+            "descriere":"basket2",
+            "timp":"06:00-09:00"
+		},
+        {
+			"cale_imagine":"basket3.jpg",
+            "titlu":"Cos basket",
+            "descriere":"basket3",
+            "timp":"13:00-21:00"
+		},
+        {
+			"cale_imagine":"volley1.jpg",
+            "titlu":"Minge volley",
+            "descriere":"volley1",
+            "timp":"10:00-17:00"
+		},
+        {
+			"cale_imagine":"volley2.jpg",
+            "titlu":"Teren volley",
+            "descriere":"volley2",
+            "timp":"11:00-22:00"
+		},
+        {
+			"cale_imagine":"volley3.jpg",
+            "titlu":"Minge volley",
+            "descriere":"volley3",
+            "timp":"08:00-20:00"
+		}
+	]
+}

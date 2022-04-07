@@ -1,0 +1,215 @@
+body
+{
+--culoare-1: #5d6d7e ;
+--culoare-2: #85929e;
+--culoare-3:#aeb6bf; 
+--culoare-4: #d6dbdf; 
+--culoare-5: #283747; 
+--culoare-6: #2e4053;
+
+}
+
+#sectiune1{
+    outline:1px solid var(--culoare-2);
+    padding:1rem;
+    color: white;
+}
+
+#sectiune2{
+    outline:1px solid var(--culoare-2);
+    padding:1rem;
+    color: white;
+}
+
+main{
+    background-color:#85929e;
+    color: #17202A;
+}
+
+
+body{
+background-color: #85929e;   
+ margin: 0;
+}
+
+footer{
+   margin:0;
+    background-color: var(--culoare-6);
+}
+header{
+    margin:0;
+    background-color:var(--culoare-6);
+    font-size: 50px;    
+    text-align: center;
+}
+
+#sectiune2,
+#sectiune1,
+#sectiune8{
+    color:white;
+    background-color:var(--culoare-6);
+}
+#sectiune8{
+    font-size: 20px;
+}
+h3{
+    color: #aeb6bf;
+}
+
+
+summary{
+    color: #85929e;
+    text-align: center;
+    border: black solid;
+}
+
+
+
+#tab-fotbal #par{
+    background-color: #d6dbdf;
+}
+#tab-fotbal #impar{
+    background-color: #5d6d7e;
+    
+}
+#tab-tenis #par{
+    background-color: #d6dbdf;
+}
+#tab-tenis #impar{
+    background-color: #5d6d7e;
+    
+}
+
+
+#tab-tenis,
+#tab-fotbal{
+    border-spacing: 1px;
+}
+
+tr:hover td:not(.cell-class) {
+    background: black; 
+}
+
+.sus {
+
+        border-top-left-radius: 105px;
+        border-top-right-radius:105px;
+        background: #85929e;
+        padding: 10px; 
+        width: 40px;
+        height: 30px; 
+        border: solid;
+        
+
+}
+
+.sus a{
+    font-size: 39px;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.sus a:hover {
+    font-size: 80px;
+    transition: 2s;
+    opacity: 1;
+    
+}
+.sus .tooltip{
+    visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.sus:hover .tooltip{
+    visibility: visible;
+    
+}
+
+.flexbox a{
+    display: inline-flex;
+    border: 1px solid #d6dbdf;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    transition:all 0.5s linear;
+
+}
+
+.flexbox a:hover{
+    color: #85929e;
+    background-color: #5d6d7e;
+}
+
+#sectiune8 section{
+    
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  
+
+main #texts{
+    font-family: 'Tangerine', serif;
+   
+}
+
+
+main {
+    counter-reset: Sectiune;
+}
+
+
+
+a:visited{
+    color: black;
+}
+a:link{
+    color: black;
+}
+
+#sectiune1::before{
+    counter-increment: Sectiune;
+    content: "Sectiune " counter(Sectiune) ".";
+}
+#sectiune2::before{
+    counter-increment: Sectiune;
+    content: "Sectiune " counter(Sectiune) ".";
+}
+#sectiune3::before{
+    counter-increment: Sectiune;
+    content: "Sectiune " counter(Sectiune) ".";
+}
+#sectiune4::before{
+    counter-increment: Sectiune;
+    content: "Sectiune " counter(Sectiune) ".";
+}
+#sectiune5::before{
+    counter-increment: Sectiune;
+    content: "Sectiune " counter(Sectiune) ".";
+}
+#sectiune6::before{
+    counter-increment: Sectiune;
+    content: "Sectiune " counter(Sectiune) ".";
+}
+#sectiune7::before{
+    counter-increment: Sectiune;
+    content: "Sectiune " counter(Sectiune) ".";
+}
+
+#sectiune8::before{
+    counter-increment: Sectiune;
+    content: "Sectiune " counter(Sectiune) ".";
+}
+

@@ -1,0 +1,73 @@
+
+@import "meniu.css";
+
+
+
+
+#sectiune1{ grid-area: sectiune1;}
+#sectiune2{ grid-area: sectiune2;}
+#sectiune3{ grid-area: sectiune3;}
+#sectiune4{ grid-area: sectiune4;}
+#sectiune5{ grid-area: sectiune5;}
+#sectiune6{ grid-area: sectiune6;}
+#sectiune7{ grid-area: sectiune7;}
+#sectiune8{ grid-area: sectiune8;}
+#galerie-statica{ grid-area: sectiune9;}
+
+#grid-pagina {
+    display: grid;
+    grid-template-areas: 'sectiune1 sectiune1 sectiune1 sectiune1'
+                         'sectiune3 sectiune2 sectiune2 sectiune4'
+                         'sectiune8 sectiune8 sectiune8 sectiune8'
+                         'sectiune7 sectiune7 sectiune5 sectiune6'
+                         'sectiune9 sectiune9 sectiune9 sectiune9'
+                          ;
+    grid-gap:2rem;
+    padding:10px;  }
+
+
+
+    
+#grid-galerie{ 
+    display: grid;
+    grid-template-areas: '. . . .'
+                           '. . . .'
+                           '. . . .'
+                            ;
+            }
+
+
+ html{
+     font-size: 15px;
+ }
+
+ .banner{
+    font-size: 12px;
+    padding:1px; 
+    text-align:center;
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #5d6d7e;
+    transition: 2s;
+    border: black;
+    
+ }
+ .banner {
+    animation: dissapear 10s forwards, colors 5s forwards;
+    
+}
+@keyframes dissapear {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+ /*Posibil ca aceste culori sa nu fie foarte bine vazute la trecerea dintr-o stare in alta.
+ Putem modifica doar una din ele cu ceva inchis si vom vedea ca chiar functioneaza*/
+
+@keyframes colors {
+    0% {width: 25%; background: #85929e; border:#aeb6bf;}
+    50% {width: 50%; background: #aeb6bf; border:#85929e;}
+    100% {width: 100%; background: #85929e; border:#aeb6bf;}
+}
